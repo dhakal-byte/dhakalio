@@ -1,0 +1,18 @@
+:root {
+  --r: #C8102E;
+  --r2: #8B0A1E;
+  --b: #003893;
+  --b2: #1a4fa8;
+  --ink: #0a0a0b;
+  --ink2: #555;
+  --soft: #f7f7f6;
+  --line: rgba(0,0,0,0.08);
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  background: var(--soft);
+  color: var(--ink);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
